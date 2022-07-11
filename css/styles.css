@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: whitesmoke;
+    background-color: #2d3e50;
 }
 
 .wrap{
@@ -15,12 +15,13 @@ body{
 }
 
 .wrap h1{
-    color: #494b4d;
+    color: white;
     font-weight: 400;
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: 15px 0px;
+    font-family: 'Mukta', sans-serif;
 }
 
 .wrap h1::after{
@@ -45,29 +46,32 @@ body{
     width: 100%;
     padding: 15px 0;
     margin-bottom: 20px;
-    background-color:gray;
     text-align: center;
     text-decoration: none;
     color: #fff;
 }
 
-#catArt{
+.catAll{
+    background-color:gray;
+}
+
+.catArt{
     background: #98266d;
 }
 
-#catEmprende{
+.catEmprende{
     background:#ec7715;
 }
 
-#catSocial{
+.catSocial{
     background:#86c4e2;
 }
 
-#catTech{
+.catTech{
     background:#3f5485;
 }
 
-#catEco{
+.catEco{
     background:#3fa93b;
 }
 
