@@ -45,12 +45,32 @@ body{
     width: 100%;
     padding: 15px 0;
     margin-bottom: 20px;
-    background: #e84c3d;
-
+    background-color:gray;
     text-align: center;
     text-decoration: none;
     color: #fff;
 }
+
+#catArt{
+    background: #98266d;
+}
+
+#catEmprende{
+    background:#ec7715;
+}
+
+#catSocial{
+    background:#86c4e2;
+}
+
+#catTech{
+    background:#3f5485;
+}
+
+#catEco{
+    background:#3fa93b;
+}
+
 
 .category_list .ct_itemActive{
     background: #2d3e50;
